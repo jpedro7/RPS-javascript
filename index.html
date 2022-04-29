@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra Papel e Tesoura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pedra Papel e Tesoura</h1>
+    </header>
+
+    <main>
+        <div id="score">
+            <div id="player-score-label">Player</div>
+            <div id="bot-score-label">Bot</div>
+            <span id="player-score">0</span>:<span id="bot-score">0</span>
+        </div>
+
+        <div id="move-options">
+            <button id="pedra">Pedra</button>
+            <button id="papel">Papel</button>
+            <button id="tesoura">Tesoura</button>
+        </div>
+
+        <div id="moves-label">
+            <p id="moves"></p>
+            <p id="result"></p>
+        </div>
+
+        <p>Escolha sua jogada</p>
+
+        <div id="reset-score">
+            <button id="reset-score-btn">Resetar pontuação</button>
+        </div>
+    </main>
+</body>
+<script src="app.js"></script>
+
+</html>

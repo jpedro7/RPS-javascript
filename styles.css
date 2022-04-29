@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+header {
+    background-color: white;
+    padding: 10px 0;
+}
+
+body {
+    background-color: rgb(50, 50, 50);
+}
+
+main {
+    color: white;
+}
+
+button {
+    background-color: dodgerblue;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    border: 0;
+}
+
+button:hover {
+    background-color: rgb(20, 96, 172);
+    cursor: pointer;
+}
+
+#move-options {
+    padding: 10px;
+}
+
+#score {
+    background-color: black;
+    margin: 10px auto;
+    padding: 20px 5px;
+    border-radius: 5px;
+    border: 1.5px solid red;
+    width: 150px;
+    position: relative;
+}
+
+#score > div {
+    background-color: red;
+    width: fit-content;
+    padding: 4px;
+    border-radius: 3px;
+    font-size: smaller;
+    position: absolute;
+}
+
+#player-score-label {
+    left: -25px;
+    top: 15px;
+}
+
+#bot-score-label {
+    right: -15px;
+    top: 15px;
+}
+
+#reset-score {
+    margin: 50px 0;
+}
+
+#moves-label {
+    margin: 10px 0;
+}
